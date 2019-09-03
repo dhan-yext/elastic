@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/yext/elastic/uritemplates"
+	"github.com/dhan-yext/elastic/uritemplates"
 )
 
 // IndicesExistsService checks if an index or indices exist or not.

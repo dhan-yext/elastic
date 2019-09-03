@@ -23,8 +23,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/olivere/env"
 
-	"github.com/yext/elastic"
-	aws "github.com/yext/elastic/aws/v4"
+	"github.com/dhan-yext/elastic"
+	aws "github.com/dhan-yext/elastic/aws/v4"
 )
 
 const (

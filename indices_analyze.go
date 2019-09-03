@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/yext/elastic/uritemplates"
+	"github.com/dhan-yext/elastic/uritemplates"
 )
 
 // IndicesAnalyzeService performs the analysis process on a text and returns

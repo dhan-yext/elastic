@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/yext/elastic/uritemplates"
+	"github.com/dhan-yext/elastic/uritemplates"
 )
 
 // DeleteService allows to delete a typed JSON document from a specified

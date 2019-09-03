@@ -36,7 +36,7 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/yext/elastic"
+	"github.com/dhan-yext/elastic"
 )
 
 func main() {

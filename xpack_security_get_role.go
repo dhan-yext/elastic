@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/yext/elastic/uritemplates"
+	"github.com/dhan-yext/elastic/uritemplates"
 )
 
 // XPackSecurityGetRoleService retrieves a role by its name.

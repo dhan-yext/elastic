@@ -23,7 +23,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/yext/elastic"
+	"github.com/dhan-yext/elastic"
 )
 
 const (

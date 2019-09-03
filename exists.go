@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/yext/elastic/uritemplates"
+	"github.com/dhan-yext/elastic/uritemplates"
 )
 
 // ExistsService checks for the existence of a document using HEAD.

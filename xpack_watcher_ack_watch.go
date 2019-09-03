@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/yext/elastic/uritemplates"
+	"github.com/dhan-yext/elastic/uritemplates"
 )
 
 // XPackWatcherAckWatchService enables you to manually throttle execution of the watch’s actions.

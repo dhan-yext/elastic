@@ -17,7 +17,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/yext/elastic"
+	"github.com/dhan-yext/elastic"
 )
 
 func main() {

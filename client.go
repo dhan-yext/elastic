@@ -21,7 +21,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/yext/elastic/config"
+	"github.com/dhan-yext/elastic/config"
 )
 
 const (

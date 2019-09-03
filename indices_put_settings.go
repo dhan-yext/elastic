@@ -10,7 +10,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/yext/elastic/uritemplates"
+	"github.com/dhan-yext/elastic/uritemplates"
 )
 
 // IndicesPutSettingsService changes specific index level settings in

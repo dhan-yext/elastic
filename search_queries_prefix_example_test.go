@@ -7,7 +7,7 @@ package elastic_test
 import (
 	"context"
 
-	"github.com/yext/elastic"
+	"github.com/dhan-yext/elastic"
 )
 
 func ExamplePrefixQuery() {

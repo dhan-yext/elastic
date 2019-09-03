@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/yext/elastic/uritemplates"
+	"github.com/dhan-yext/elastic/uritemplates"
 )
 
 // SnapshotGetService lists the snapshots on a repository

@@ -12,7 +12,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/yext/elastic/uritemplates"
+	"github.com/dhan-yext/elastic/uritemplates"
 )
 
 // Search for documents in Elasticsearch.

@@ -9,7 +9,7 @@ import (
 	"errors"
 	"net/url"
 
-	"github.com/yext/elastic/uritemplates"
+	"github.com/dhan-yext/elastic/uritemplates"
 )
 
 // IndicesCreateService creates a new index.

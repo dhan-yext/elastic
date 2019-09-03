@@ -17,8 +17,8 @@ import (
 	"log"
 	"runtime"
 
-	"github.com/yext/elastic"
-	"github.com/yext/elastic/config"
+	"github.com/dhan-yext/elastic"
+	"github.com/dhan-yext/elastic/config"
 )
 
 func main() {

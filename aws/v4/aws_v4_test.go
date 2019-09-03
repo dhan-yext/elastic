@@ -14,7 +14,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws/credentials"
 
-	"github.com/yext/elastic"
+	"github.com/dhan-yext/elastic"
 )
 
 func TestSigningClient(t *testing.T) {

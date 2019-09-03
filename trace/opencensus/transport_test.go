@@ -13,7 +13,7 @@ import (
 
 	"go.opencensus.io/trace"
 
-	"github.com/yext/elastic"
+	"github.com/dhan-yext/elastic"
 )
 
 func init() {
@@ -106,7 +106,7 @@ func TestTransport(t *testing.T) {
 	}
 	if attr, ok := span.Attributes["Component"].(string); !ok {
 		t.Fatalf("attribute %q not found", "Component")
-	} else if want, have := "github.com/yext/elastic", attr; want != have {
+	} else if want, have := "github.com/dhan-yext/elastic", attr; want != have {
 		t.Fatalf("want attribute=%q, have %q", want, have)
 	}
 	if attr, ok := span.Attributes["Method"].(string); !ok {

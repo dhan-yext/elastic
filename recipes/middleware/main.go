@@ -17,7 +17,7 @@ import (
 	"net/http"
 	"sync/atomic"
 
-	"github.com/yext/elastic"
+	"github.com/dhan-yext/elastic"
 )
 
 // CountingTransport will count requests.

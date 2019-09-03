@@ -14,7 +14,7 @@ import (
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/mocktracer"
 
-	"github.com/yext/elastic"
+	"github.com/dhan-yext/elastic"
 )
 
 func TestTransport(t *testing.T) {
@@ -87,7 +87,7 @@ func TestTransport(t *testing.T) {
 	if want, have := "PerformRequest", span.OperationName; want != have {
 		t.Fatalf("want Span.OperationName=%q, have %q", want, have)
 	}
-	if want, have := "github.com/yext/elastic", span.Tag("component"); want != have {
+	if want, have := "github.com/dhan-yext/elastic", span.Tag("component"); want != have {
 		t.Fatalf("want component tag=%q, have %q", want, have)
 	}
 	if want, have := ts.URL+"/", span.Tag("http.url"); want != have {

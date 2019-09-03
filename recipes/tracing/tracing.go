@@ -32,8 +32,8 @@ import (
 	jaegerexpvar "github.com/uber/jaeger-lib/metrics/expvar"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/yext/elastic"
-	"github.com/yext/elastic/trace/opentracing"
+	"github.com/dhan-yext/elastic"
+	"github.com/dhan-yext/elastic/trace/opentracing"
 )
 
 func main() {

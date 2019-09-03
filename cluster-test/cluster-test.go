@@ -18,7 +18,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/yext/elastic"
+	"github.com/dhan-yext/elastic"
 )
 
 type Tweet struct {

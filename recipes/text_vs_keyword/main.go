@@ -20,7 +20,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/yext/elastic"
+	"github.com/dhan-yext/elastic"
 )
 
 const (
