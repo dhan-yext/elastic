@@ -17,8 +17,8 @@ import (
 	"log"
 	"runtime"
 
-	"github.com/olivere/elastic/v7"
-	"github.com/olivere/elastic/v7/config"
+	"github.com/yext/elastic"
+	"github.com/yext/elastic/config"
 )
 
 func main() {

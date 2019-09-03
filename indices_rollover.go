@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/olivere/elastic/v7/uritemplates"
+	"github.com/yext/elastic/uritemplates"
 )
 
 // IndicesRolloverService rolls an alias over to a new index when the

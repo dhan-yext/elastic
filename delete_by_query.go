@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/olivere/elastic/v7/uritemplates"
+	"github.com/yext/elastic/uritemplates"
 )
 
 // DeleteByQueryService deletes documents that match a query.

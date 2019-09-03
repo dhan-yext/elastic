@@ -10,7 +10,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/olivere/elastic/v7/uritemplates"
+	"github.com/yext/elastic/uritemplates"
 )
 
 // IndicesGetMappingService retrieves the mapping definitions for an index or

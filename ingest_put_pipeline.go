@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/olivere/elastic/v7/uritemplates"
+	"github.com/yext/elastic/uritemplates"
 )
 
 // IngestPutPipelineService adds pipelines and updates existing pipelines in

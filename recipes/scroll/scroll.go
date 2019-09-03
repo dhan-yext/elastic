@@ -24,7 +24,7 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/olivere/elastic/v7"
+	"github.com/yext/elastic"
 )
 
 func main() {
